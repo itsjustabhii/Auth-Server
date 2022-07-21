@@ -6,5 +6,7 @@ if(process.env.NODE_ENV !== 'production') {
 
 module.exports = {
     ACCESS_TOKEN_SECRET: process.env.ACCESS_TOKEN_SECRET,
-    NODE_ENV: process.env.NODE_ENV
+    NODE_ENV: process.env.NODE_ENV,
+    // PORT: process.env.PORT
+   
 }
