@@ -1,4 +1,5 @@
 module.exports = {
+    development: {
     HOST: '127.0.0.1',
     PORT: 3306,
     USER: 'root',
@@ -11,4 +12,11 @@ module.exports = {
         acquire: 30000,
         idle: 10000
     }
+},
+production: {
+    HOST: 'sql10.freemyqlhosting.net',
+    PORT: 3306,
+    USER: 'sql10507879',
+    PASSWORD: 'Yetm5EMXid',
+}
 }
