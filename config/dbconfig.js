@@ -18,5 +18,13 @@ production: {
     PORT: 3306,
     USER: 'sql10507879',
     PASSWORD: 'Yetm5EMXid',
+    DB:'sql10507879',
+    dialect: "mysql",
+    pool: {
+        max: 5,
+        min: 0,
+        acquire: 30000,
+        idle: 10000
+    }
 }
 }
